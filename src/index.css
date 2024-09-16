@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .scrollbar-custom::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background-color: #bcc0ca; /* Initial color */
+    border-radius: 10px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background-color: #f3f4f6; /* Background track color */
+  }
+
+  /* Hover effect for the scrollbar */
+  .scrollbar-custom:hover::-webkit-scrollbar-thumb {
+    background-color: #513393; /* Change to purple on hover */
+  }
+}
