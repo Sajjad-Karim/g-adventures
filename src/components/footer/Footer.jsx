@@ -73,7 +73,7 @@ const Footer = () => {
               <IoIosArrowDropdownCircle className="md:hidden block text-[20px] text-[#c8bebb]" />
             </div>
             <div
-              className={`flex flex-col text-[#504e61] gap-2 ${
+              className={`flex flex-col text-[#504e61] gap-2 md:bloc${
                 activeIndex === index ? "block" : "hidden"
               }`}
             >
